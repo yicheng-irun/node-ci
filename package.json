@@ -1,0 +1,28 @@
+{
+  "name": "node-ci",
+  "version": "1.0.0",
+  "description": "nodejs ci 工具",
+  "main": "index.js",
+  "bin": {
+    "nodeci": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yicheng-irun/node-ci.git"
+  },
+  "author": [
+    "chairlen",
+    "icheng"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yicheng-irun/node-ci/issues"
+  },
+  "homepage": "https://github.com/yicheng-irun/node-ci#readme",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
