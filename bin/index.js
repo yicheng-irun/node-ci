@@ -19,7 +19,7 @@ commander.command('start')
     .description('start')
     .alias('s')
     .action(function (...args) {
-        Sona.build(args);
+        NodeCI.start(args);
     });
 
 /**
@@ -29,7 +29,7 @@ commander.command('run')
     .description('run')
     .alias('r')
     .action(function (...args) {
-        Sona.dev(args);
+        NodeCI.run(args);
     });
 
 /**
@@ -39,7 +39,7 @@ commander.command('stop')
     .description('stop')
     .alias('r')
     .action(function (...args) {
-        Sona.dev(args);
+        NodeCI.stop(args);
     });
 
 /**
@@ -49,7 +49,7 @@ commander.command('list')
     .description('list')
     .alias('r')
     .action(function (...args) {
-        Sona.dev(args);
+        NodeCI.list(args);
     });
 
 
