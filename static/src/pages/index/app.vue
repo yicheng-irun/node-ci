@@ -7,9 +7,9 @@
 <script>
 export default {
 
-    data () {
-        return {
-            tab_key: 'tab1'
+data () {
+    return {
+        tab_key: 'tab1'
         }
     },
 
@@ -18,7 +18,6 @@ export default {
 
         }
     }
-    
 }
 </script>
 

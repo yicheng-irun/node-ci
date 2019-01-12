@@ -2,7 +2,6 @@
  * @author ichengzhang
  * @since 20181214
  */
-const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');

@@ -9,7 +9,7 @@ Vue.use(vueBeauty);
 
 Vue.prototype.$axios = axios;
 
-new Vue({
+Vue({
     el: '#app',
     render: h => h(App)
 });

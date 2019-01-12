@@ -1,0 +1,16 @@
+{
+    "eslint.options": {
+        "plugins": [
+            "html"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html"
+    ],
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    }
+}
