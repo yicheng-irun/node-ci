@@ -1,15 +1,24 @@
 <template>
-    <div class="main">
-        asdf
+    <div
+        id="app"
+        ref="app"
+        class="main"
+        style="opacity: 0"
+    >
+        <nc-header />
     </div>
 </template>
 
 <script>
-export default {
+import ncHeader from './comps/nc-header.vue';
 
-data () {
-    return {
-        tab_key: 'tab1'
+export default {
+    components: {
+        ncHeader
+    },
+    data () {
+        return {
+            tab_key: 'tab1'
         }
     },
 
@@ -17,15 +26,19 @@ data () {
         tab_onchange () {
 
         }
+    },
+    mounted () {
+        setTimeout(() => {
+            this.$refs.app.style.opacity = 1;
+        }, 100);
     }
 }
+    
 </script>
 
 <style lang="stylus">
-@import './style/index.styl';
-
+@import './style/index.styl'
 .main {
-    color: #f00;
+    transition all 0.3s
 }
-
 </style>
