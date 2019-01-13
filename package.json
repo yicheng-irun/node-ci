@@ -11,7 +11,7 @@
     "dev": "node scripts/webpack-hot-update-config.js",
     "dev:server": "node scripts/server-dev.js",
     "build": "node scripts/webpack-hot-update-config.js build",
-    "start": "node server/index.js"
+    "start": "node ./bin/index.js run"
   },
   "repository": {
     "type": "git",
