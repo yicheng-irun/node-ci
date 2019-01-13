@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
  * 
  * @param {Object} options
  */
-function getServerApp (options) {
+function createApp (options) {
     const app = express();
 
     var logger = require('morgan');
@@ -36,6 +36,4 @@ function getServerApp (options) {
 }
 
 
-module.exports = {
-    getServerApp,
-};
+module.exports = createApp;

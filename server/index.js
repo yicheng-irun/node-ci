@@ -2,7 +2,7 @@
  * 
  */
 
-const app = require('../server/app').getServerApp({
+const app = require('../server/app')({
     isDevMode: false,
 });
 
