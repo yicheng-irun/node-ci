@@ -30,7 +30,7 @@ export default {
     mounted () {
         setTimeout(() => {
             this.$refs.app.style.opacity = 1;
-        }, 100);
+        }, 0);
     }
 }
     

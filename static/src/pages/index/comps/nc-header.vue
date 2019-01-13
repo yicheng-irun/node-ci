@@ -56,6 +56,7 @@ export default {
 .head-navs {
     margin 0
     padding 0
+    white-space nowrap
     >li {
         margin 0 1px
         padding 0
